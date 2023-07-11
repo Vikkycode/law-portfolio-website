@@ -13,14 +13,11 @@ import Footer from './components/common/Footer'
 export default function Home() {
   return (
     <main className=" w-full">
-    <Navbar />
     <Hero />
     <PracticeArea />
     <Portfolio />
     <Experience />
     <Testimonial />
-    <NewsLetter />
-    <Footer />
     </main>
   )
 }
