@@ -1,0 +1,104 @@
+
+
+.Button{
+    @apply w-[67px] lg:w-[110px] 
+           h-[28px] lg:h-[40px] 
+           border-[1px] 
+           gap-[5px] 
+           text-black 
+           border-black 
+           rounded-[47px]
+           flex
+           items-center
+           justify-center           
+}
+
+.Home {
+    @apply font-[500]
+}
+
+.headTitle{
+    @apply font-[700]
+          text-[45px] lg:text-[90px] 
+          leading-[45px] lg:leading-[90px]
+           tracking-[-5%]
+           text-black
+}
+
+.Text{
+    @apply font-[500]
+           text-[12px] lg:text-[14px]
+           leading-[14.52px] lg:leading-[16.94px]
+           tracking-[-2%]
+}
+
+.Text2{
+    @apply font-[400]
+           text-[14px]
+           leading-[24px]
+           tracking-[10%]
+}
+
+.Text3{
+    @apply 
+           text-[16px]
+           leading-[24px]
+           tracking-[-2%]
+}
+
+
+
+
+.flexCenter{
+    @apply flex
+           items-center
+           justify-center
+}
+
+.flexBetween{
+    @apply flex
+           items-center
+           justify-between
+}
+
+.flexAround{
+    @apply flex
+           items-center
+           justify-around
+}
+
+.flexEvenly{
+    @apply flex
+           items-center
+           justify-evenly
+}
+
+.flexTop{
+    @apply flex
+           items-end
+           justify-start
+}
+
+.flexStart{
+    @apply flex
+           lg:items-center
+           justify-start
+}
+.flexColumn{
+    @apply flex
+           items-center
+           flex-col
+}
+
+.flexEnd{
+    @apply flex
+           items-center
+           justify-end
+}
+
+.flexStartColumn{
+    @apply flex
+           items-start
+           flex-col
+}
+
