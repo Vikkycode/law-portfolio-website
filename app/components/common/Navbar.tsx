@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
 
-    <header className='max-w-[1300px] mx-auto py-4 px-6'>
+    <header className='max-w-[1300px] mx-auto py-4 lg:px-0 px-6'>
         <nav className={`${style.flexBetween} h-[24vh]`}>
           <Link href='/'
           className='block lg:hidden'>
@@ -85,8 +85,6 @@ const Navbar = () => {
             </div>
             </div>
         </nav>
-        <div className='border border-black -mt-6 hidden lg:block'>
-        </div>
     </header>
   )
 }

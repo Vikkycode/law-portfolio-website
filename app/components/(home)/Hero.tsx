@@ -8,6 +8,8 @@ import { HiOutlineArrowCircleDown} from 'react-icons/hi'
 const Hero = () => {
   return (
     <div className={`flex flex-2 flex-col h-[90vh] lg:min-h-[136vh] lg:w-full`}>
+      <div className='border w-[1250px] mx-auto  border-black -mt-6 hidden lg:block'>
+        </div>
       <div className={`${style.flexAround} flex-2 flex-col lg:flex-row`}>          
       <div className='pl-4 lg:pl-[8rem] -mt-0 lg:-mt-[350px]'>
         <h1 className={`${style.headTitle} h-[100px] lg:h-[180px] w-[311px] lg:w-[640px]`}>Law With a special touch.</h1>
