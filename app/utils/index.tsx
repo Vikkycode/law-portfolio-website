@@ -1,4 +1,8 @@
 import aboutPage from '../about/page'
+import image from '../../public/images/Rectangle.png'
+import iconPlay from '../../public/icons/play-circle.png'
+
+
 
 export const NavLinks= [
     {
@@ -7,7 +11,7 @@ export const NavLinks= [
     },
     {
         title:'Portfolio',
-        href:'/portfolio',
+        href:'../portfolio/',
     },
     {
         title:'Event',
@@ -30,7 +34,6 @@ export const NavLinks= [
         href:'/contact',
     }
 ]
-
 
 export const PracticeItems2 = [
     {
@@ -144,5 +147,219 @@ export const socialMediaLinks= [
     {
         title:'Linkedin',
         link:''
+    },
+]
+
+export const AboutHeroItem =[
+    {
+        headline:`Constitutional Lawyer,\n Human Rights Activist,\n
+        and Senior Advocate of Nigeria`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio'
+    },  
+]
+
+
+export const portfolioHeroItem =[
+    {
+        headline:`He provides high quality\n
+        legal services in the most\n
+        complex areas of law`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio'
+    },  
+]
+
+
+export const portfolioCardItems = [
+    {
+        image:image,
+        icon:iconPlay,
+        headline:'Fixing Nigeria Election: Chief Mike Agbedor Abu Ozekhome,',
+        date:'May 24, 2020'
+    },
+    {
+        image:image,
+        icon:iconPlay,
+        headline:'Fixing Nigeria Election: Chief Mike Agbedor Abu Ozekhome,',
+        date:'May 24, 2020'
+    },
+    {
+        image:image,
+        icon:iconPlay,
+        headline:'Ozekhome_with_femiFalana GaniFawehinmi protest 1998',
+        date:'May 24, 2020'
+    },
+    {
+        image:image,
+        icon:iconPlay,
+        headline:'EFFC-DSS Clash a National Embarrassment',
+        date:'May 24, 2020'
+    },
+    // {
+    //     image:image,
+    //     icon:iconPlay,
+    //     headline:'EFFC-DSS Clash a National Embarrassment',
+    //     date:'May 24, 2020'
+    // },
+]
+
+
+
+export const blogItems =[
+    {
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads - 7mins Reading',
+        button:'intellectual'
+    },
+    {
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads - 7mins Reading',
+        button:'political'
+    },
+    {
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads - 3mins Reading',
+        button:'Constitution'
+    },
+    {
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads - 7mins Reading',
+        button:'intellectual'
+    },
+    {
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads - 7mins Reading',
+        button:'political'
+    },
+    {
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads - 3mins Reading',
+        button:'Constitution'
+    },
+]
+
+export const moreAreaCard = [
+    {
+        image:image,
+        headline:`Tinubu’s Mount Everest Task of reconciling a fractured APC`,
+        content:'Recalling My Article In the Sun Newspaper Of 14th February, 2018',
+        btn:'Read'
+    },
+    {
+        image:image,
+        headline:`June 12 and My Humble Involvement in The Struggle For Democracy in Nigeria (Part 1)`,
+        content:'Recalling My Article In the Sun Newspaper Of 14th February, 2018',
+        btn:'Read'
+    },
+    {
+        image:image,
+        headline:`Personal Property Law in Nigeria (Book)`,
+        content:'Recalling My Article In the Sun Newspaper Of 14th February, 2018',
+        btn:'Download'
+    },
+]
+
+export const eventItems =[
+    {
+        image:'',
+        headline:`The Correctional Prowess of Justice Law`,
+        date:'May 24,2020',
+        button:'upcoming'
+    },
+    {
+        image:'',
+        headline:`The Correctional Prowess of Justice Law`,
+        date:'May 24,2020',
+        button:'upcoming'
+    },
+    {
+        image:'',
+        headline:`The Correctional Prowess of Justice Law`,
+        date:'May 24,2020',
+        button:'upcoming'
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        button:'upcoming'
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        button:'upcoming'
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        button:'upcoming'
+    },
+]
+
+export const storeItems =[
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#50,000`,
+        rate:'120 Download',
+        logo:''
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#50,000`,
+        rate:'120 Download',
+        logo:''
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#50,000`,
+        rate:'120 Download',
+        logo:''
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#50,000`,
+        rate:'120 Download',
+        logo:''
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#50,000`,
+        rate:'120 Download',
+        logo:''
+    },
+    {
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#50,000`,
+        rate:'120 Download',
+        logo:''
     },
 ]

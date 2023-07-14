@@ -1,12 +1,27 @@
 
 
 .Button{
-    @apply w-[67px] lg:w-[110px] 
+    @apply px-4
            h-[28px] lg:h-[40px] 
            border-[1px] 
            gap-[5px] 
            text-black 
            border-black 
+           rounded-[47px]
+           flex
+           items-center
+           justify-center           
+}
+
+
+.ButtonWhite{
+    @apply px-6 
+           h-[28px] lg:h-[40px] 
+           border-[1px] 
+           gap-[5px] 
+           text-white 
+           border-white
+           bg-transparent 
            rounded-[47px]
            flex
            items-center
