@@ -15,9 +15,9 @@ const MoreAreaCard = () => {
       </div>
 
       {moreAreaCard.map((data,index)=>(
-      <div key={index} className='h-[159px] lg:h-[141px] bg-[#fff] w-full lg:w-0 rounded-[8px] lg:rounded-[80px] my-4 py-6 lg:my-8 lg:py-6 px-12'>
+      <div key={index} className='h-[159px] lg:h-[141px] bg-[#fff] w-full  rounded-[8px] lg:rounded-[80px] my-4 py-6 lg:my-8 lg:py-6 px-12'>
         <div className='flex items-center justify-between flex-col lg:flex-row'>
-        <div className='flex'>
+        <div className='flex items-center'>
             <Image 
             src={data.image}
             height={98}

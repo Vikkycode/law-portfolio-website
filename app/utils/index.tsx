@@ -15,11 +15,11 @@ export const NavLinks= [
     },
     {
         title:'Event',
-        href:'/event',
+        href:'../event/',
     },
     {
         title:'Blog',
-        href:'/blog',
+        href:'../blog/',
     },
     {
         title:'Store',
@@ -207,49 +207,163 @@ export const portfolioCardItems = [
 ]
 
 
+export const BlogHeroItem=[
+    {
+        headline:`Share from the wealth of\n
+        knowledge and years of\n
+        fervent experience`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio'
+    },  
+]
 
-export const blogItems =[
+export const eventHeroItem =[
     {
+        headline:`Keep up with event, keep up with law and all`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio'
+    },  
+]
+
+
+export const blogCardItems =[
+    {
+        id:'1',
         image:'',
-        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        read:'120 Reads - 7mins Reading',
-        button:'intellectual'
+        read:'120 Reads ',
+        button:'intellectual',
+        time:'3 Mins Reading',
+        link:'../blog/1',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
+        id:'2',
         image:'',
         headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
         date:'May 24,2020',
-        read:'120 Reads - 7mins Reading',
-        button:'political'
+        read:'120 Reads',
+        button:'political',
+        time:'3 Mins Reading',
+        link:'../blog/2',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
+        id:'3',
         image:'',
-        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        headline:`EFFC-DSS Clash a National Embarrassment`,
         date:'May 24,2020',
-        read:'120 Reads - 3mins Reading',
-        button:'Constitution'
+        read:'120 Reads',
+        button:'Constitution',
+        time:'3 Mins Reading',
+        link:'../blog/3',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
+        id:'4',
         image:'',
-        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        read:'120 Reads - 7mins Reading',
-        button:'intellectual'
+        read:'120 Reads',
+        button:'intellectual',
+        time:'3 Mins Reading',
+        link:'../blog/4',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
+        id:'5',
         image:'',
         headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
         date:'May 24,2020',
-        read:'120 Reads - 7mins Reading',
-        button:'political'
+        read:'120 Reads',
+        button:'political',
+        time:'3 Mins Reading',
+        link:'../blog/5',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
+        id:'6',
+        image:'',
+        headline:`EFFC-DSS Clash a National Embarrassment`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Constitution',
+        time:'3 Mins Reading',
+        link:'../blog/6',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
+    },
+]
+
+
+export const iCardItems =[
+    {
+        id:'1',
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        read:'120 Reads ',
+        button:'intellectual',
+        time:'3 Mins Reading',
+        link:'../blog/1',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
+    },
+    {
+        id:'2',
         image:'',
         headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
         date:'May 24,2020',
-        read:'120 Reads - 3mins Reading',
-        button:'Constitution'
+        read:'120 Reads',
+        button:'political',
+        time:'3 Mins Reading',
+        link:'../blog/2',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
+    },
+    {
+        id:'3',
+        image:'',
+        headline:`EFFC-DSS Clash a National Embarrassment`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Constitution',
+        time:'3 Mins Reading',
+        link:'../blog/3',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
+    },
+    {
+        id:'4',
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'intellectual',
+        time:'3 Mins Reading',
+        link:'../blog/4',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
+    },
+    {
+        id:'5',
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'political',
+        time:'3 Mins Reading',
+        link:'../blog/5',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
+    },
+    {
+        id:'6',
+        image:'',
+        headline:`EFFC-DSS Clash a National Embarrassment`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Constitution',
+        time:'3 Mins Reading',
+        link:'../blog/6',
+        content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
 ]
 

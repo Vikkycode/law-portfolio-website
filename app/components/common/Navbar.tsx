@@ -21,9 +21,9 @@ const Navbar = () => {
 
   const router = useRouter()
   const pathname = usePathname()
-
+  
   return (
-
+    
     <header className='max-w-[1300px] mx-auto py-4 lg:px-0 px-6'>
         <nav className={`${style.flexBetween} h-[24vh]`}>
           <Link href='/'
@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className='hidden lg:block'>
             <ul className='flex  items-center gap-10'>
                {NavLinks.map((link,index) =>(
-                <li key={index} className={`${style.Text} ${(pathname === link.href) ? 'text-black' : 'text-[#818181]'}`}>
+                 <li key={index} className={`${style.Text} ${pathname.startsWith(link.href) ? 'text-black' : 'text-[#818181]'}`}>
                     <Link href={link.href}
                     onClick={() => router.push(`${link.href}`)}>{link.title}</Link>
                 </li>
