@@ -2,12 +2,12 @@ import React from 'react'
 import Link from 'next/link'
 import {BsFillArrowRightCircleFill} from 'react-icons/bs'
 import Image from 'next/image'
-import image from '../../public/images/Rectangle 2.png'
-import image2 from '../../public/images/Rectangle.png'
-import Button from '../components/common/Button'
-import style from '../styles/global.module.css'
-import {AboutHeroItem } from '../utils'
-import Hero from '../components/common/Hero'
+import image from '../../../public/images/Rectangle 2.png'
+import image2 from '../../../public/images/Rectangle.png'
+import Button from '../../components/common/Button'
+import style from '../../styles/global.module.css'
+import {AboutHeroItem } from '../../utils'
+import Hero from '../../components/common/Hero'
 
 
 

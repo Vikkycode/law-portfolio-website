@@ -1,10 +1,8 @@
 import React from 'react'
-import Button from '../components/common/Button'
-import style from '../styles/global.module.css'
-import {portfolioHeroItem} from '../utils'
-import Hero from '../components/common/Hero'
-import PortfolioCardList from './portfolioCardList'
-import MoreAreaCard from '../components/common/MoreAreaCard'
+import { BlogHeroItem } from '../../utils'
+import Hero from '../../components/common/Hero'
+import CardList from './CardList'
+import MoreAreaCard from '../../components/common/MoreAreaCard'
 
 
 const page = () => {
@@ -12,7 +10,7 @@ const page = () => {
     <section>
         <div>
         {
-          portfolioHeroItem.map((item,index) => (
+          BlogHeroItem.map((item,index) => (
             <Hero 
             key={index}
             headline={item.headline}
@@ -23,9 +21,8 @@ const page = () => {
           ))
         }
         </div>
-        <PortfolioCardList />
+        <CardList />
         <MoreAreaCard />
-
     </section>
   )
 }

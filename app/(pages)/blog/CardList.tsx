@@ -1,10 +1,10 @@
 import React from 'react'
-import Card from '../components/common/Card'
-import { blogCardItems } from '../utils'
+import Card from '../../components/common/Card'
+import { blogCardItems } from '../../utils'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-const blogCardList = ({handleClicklinks}:any) => {
+const blogCardList = () => {
 
   return (
     <div className='min-h-[100vh] max-w-[1300px] mx-auto py-10 px-4 lg:px-0 '
@@ -13,21 +13,21 @@ const blogCardList = ({handleClicklinks}:any) => {
     >
     
       {
-        blogCardItems.map((item,index)=>(
-          
+        blogCardItems.map((blog,index)=>(          
           <Card 
           key={index}
-          id={item.id}
-          headline={item.headline}
-          button={item.button}
-          date={item.date}
-          read={item.read}
-          time={item.time}
-          href={item.link}
-          content={item.content}
+          id={blog.id}
+          headline={blog.headline}
+          button={blog.button}
+          date={blog.date}
+          read={blog.read}
+          time={blog.time}
+          link={blog.link}
+          content={blog.content}
           />    
         ))
       }  
+      
     </div>
     </div>
   )

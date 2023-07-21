@@ -31,7 +31,7 @@ const Portfolio = () => {
             width={59}
             alt='logo'
             />
-        </div>
+            </div>
         </div>
 
         <div className='hidden lg:block'>

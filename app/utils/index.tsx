@@ -23,7 +23,7 @@ export const NavLinks= [
     },
     {
         title:'Store',
-        href:'/store',  
+        href:'../store/',  
     },
     {
         title:'About',
@@ -31,7 +31,7 @@ export const NavLinks= [
     },
     {
         title:'Contact',
-        href:'/contact',
+        href:'../contact/',
     }
 ]
 
@@ -227,7 +227,138 @@ export const eventHeroItem =[
     },  
 ]
 
+export const storeHeroItem =[
+    {
+        headline:`Share from the wealth of
+        knowledge and years of
+        fervent experience`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio'
+    },  
+]
 
+export const ContactHeroItem =[
+    {
+        headline:`He can help you with your legal needs`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio'
+    },  
+]
+
+
+export const postCardItems = [
+    {
+        id:'1',
+        headline:`Intellectual Property Law In Nigeria`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio',
+        button:'intellectual',
+        read:'238 Reads',
+        date:'May 24,2020',
+        time:'3 Mins Reading',
+        paragraph:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam corporis ratione debitis, placeat nesciunt sint magnam dolorem! Exercitationem itaque laborum aliquid eveniet minima, beatae, incidunt, dolores nulla reiciendis commodi libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis quas exercitationem rerum natus similique repellendus architecto culpa harum, distinctio praesentium tempora officia eos quaerat aspernatur excepturi ducimus voluptate pariatur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum! Cupiditate adipisci repellendus dignissimos eveniet exercitationem quibusdam ea soluta velit voluptatem, sed iste ut necessitatibus aliquam, quod debitis libero magnam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint harum error, culpa itaque modi dolore natus illo laborum libero aliquid, vitae laboriosam ipsam consequatur provident. Repudiandae exercitationem eum praesentium recusandae.`,
+        content:`Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum erat gravida etiam. Dui phasellus lacinia accumsan ornare fusce mattis. Aliquet volutpat sed ornare neque gravida nec lorem. Id dignissim netus egestas nec vitae. sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum. Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus.`
+    },
+    {
+        id:'2',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio',
+        button:'political',
+        read:'215 Reads',
+        date:'May 27,2020',
+        time:'10 Mins Reading',
+        paragraph:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam corporis ratione debitis, placeat nesciunt sint magnam dolorem! Exercitationem itaque laborum aliquid eveniet minima, beatae, incidunt, dolores nulla reiciendis commodi libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis quas exercitationem rerum natus similique repellendus architecto culpa harum, distinctio praesentium tempora officia eos quaerat aspernatur excepturi ducimus voluptate pariatur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum! Cupiditate adipisci repellendus dignissimos eveniet exercitationem quibusdam ea soluta velit voluptatem, sed iste ut necessitatibus aliquam, quod debitis libero magnam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint harum error, culpa itaque modi dolore natus illo laborum libero aliquid, vitae laboriosam ipsam consequatur provident. Repudiandae exercitationem eum praesentium recusandae.`,
+        content:`Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum erat gravida etiam. Dui phasellus lacinia accumsan ornare fusce mattis. Aliquet volutpat sed ornare neque gravida nec lorem. Id dignissim netus egestas nec vitae. sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum. Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus.`
+    },
+    {
+        id:'3',
+        headline:`EFFC-DSS Clash a National Embarrassment`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio',
+        button:'constitution',
+        read:'300 Reads',
+        date:'June 10,2020',
+        time:'3 Mins Reading',
+        paragraph:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam corporis ratione debitis, placeat nesciunt sint magnam dolorem! Exercitationem itaque laborum aliquid eveniet minima, beatae, incidunt, dolores nulla reiciendis commodi libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis quas exercitationem rerum natus similique repellendus architecto culpa harum, distinctio praesentium tempora officia eos quaerat aspernatur excepturi ducimus voluptate pariatur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum! Cupiditate adipisci repellendus dignissimos eveniet exercitationem quibusdam ea soluta velit voluptatem, sed iste ut necessitatibus aliquam, quod debitis libero magnam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint harum error, culpa itaque modi dolore natus illo laborum libero aliquid, vitae laboriosam ipsam consequatur provident. Repudiandae exercitationem eum praesentium recusandae.`,
+        content:`Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum erat gravida etiam. Dui phasellus lacinia accumsan ornare fusce mattis. Aliquet volutpat sed ornare neque gravida nec lorem. Id dignissim netus egestas nec vitae. sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum. Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus.`
+    },
+    {
+        id:'4',
+        headline:`Intellectual Property Law In Nigeria`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio',
+        button:'intellectual',
+        read:'100 Reads',
+        date:'May 18,2020',
+        time:'5 Mins Reading',
+        paragraph:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam corporis ratione debitis, placeat nesciunt sint magnam dolorem! Exercitationem itaque laborum aliquid eveniet minima, beatae, incidunt, dolores nulla reiciendis commodi libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis quas exercitationem rerum natus similique repellendus architecto culpa harum, distinctio praesentium tempora officia eos quaerat aspernatur excepturi ducimus voluptate pariatur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum! Cupiditate adipisci repellendus dignissimos eveniet exercitationem quibusdam ea soluta velit voluptatem, sed iste ut necessitatibus aliquam, quod debitis libero magnam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint harum error, culpa itaque modi dolore natus illo laborum libero aliquid, vitae laboriosam ipsam consequatur provident. Repudiandae exercitationem eum praesentium recusandae.`,
+        content:`Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum erat gravida etiam. Dui phasellus lacinia accumsan ornare fusce mattis. Aliquet volutpat sed ornare neque gravida nec lorem. Id dignissim netus egestas nec vitae. sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum. Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus.`
+    },
+    {
+        id:'5',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio',
+        button:'political',
+        read:'16 Reads',
+        date:'July 24,2021',
+        time:'2 Mins Reading',
+        paragraph:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam corporis ratione debitis, placeat nesciunt sint magnam dolorem! Exercitationem itaque laborum aliquid eveniet minima, beatae, incidunt, dolores nulla reiciendis commodi libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis quas exercitationem rerum natus similique repellendus architecto culpa harum, distinctio praesentium tempora officia eos quaerat aspernatur excepturi ducimus voluptate pariatur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum! Cupiditate adipisci repellendus dignissimos eveniet exercitationem quibusdam ea soluta velit voluptatem, sed iste ut necessitatibus aliquam, quod debitis libero magnam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint harum error, culpa itaque modi dolore natus illo laborum libero aliquid, vitae laboriosam ipsam consequatur provident. Repudiandae exercitationem eum praesentium recusandae.`,
+        content:`Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum erat gravida etiam. Dui phasellus lacinia accumsan ornare fusce mattis. Aliquet volutpat sed ornare neque gravida nec lorem. Id dignissim netus egestas nec vitae. sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum. Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus.`
+    },
+    {
+        id:'6',
+        headline:`EFFC-DSS Clash a National Embarrassment`,
+        author:'Chief Mike Agbedor Abu Ozekhome,',
+        role:'[SAN, OFR, KSM, D.A, HonDL, JD, D.Phil, HonMA(HC), LL.M, LL.B (HONS), BL, KSM, F.AES, FNIM, MNIPR, F.ITMN, F.ICA, F.chMC, FNIER, LFIBA, PEFON FIARSA, F.hcd, FCLED, FIMC]',
+        btn:'Explore his portfolio',
+        button:'Constitution',
+        read:'23 Reads',
+        date:'May 28,2021',
+        time:'1 Mins Reading',
+        paragraph:`Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam corporis ratione debitis, placeat nesciunt sint magnam dolorem! Exercitationem itaque laborum aliquid eveniet minima, beatae, incidunt, dolores nulla reiciendis commodi libero
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, perspiciatis quas exercitationem rerum natus similique repellendus architecto culpa harum, distinctio praesentium tempora officia eos quaerat aspernatur excepturi ducimus voluptate pariatur!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae, ipsum! Cupiditate adipisci repellendus dignissimos eveniet exercitationem quibusdam ea soluta velit voluptatem, sed iste ut necessitatibus aliquam, quod debitis libero magnam.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint harum error, culpa itaque modi dolore natus illo laborum libero aliquid, vitae laboriosam ipsam consequatur provident. Repudiandae exercitationem eum praesentium recusandae.`,
+        content:`Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum erat gravida etiam. Dui phasellus lacinia accumsan ornare fusce mattis. Aliquet volutpat sed ornare neque gravida nec lorem. Id dignissim netus egestas nec vitae. sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus. Tortor a a non porta ipsum. Lorem ipsum dolor sit amet consectetur. Nullam auctor sit rhoncus id eu ipsum. Euismod pretium donec duis mattis ultricies fermentum. A nisl cras pellentesque tristique mauris arcu ornare sit facilisis. Ullamcorper elementum massa elit dolor morbi mauris. Ut imperdiet risus mauris ultricies eget. Dictum nunc quis neque id mattis. Non sit iaculis nec mauris et ac fames a et. Maecenas sit ornare scelerisque ultrices pellentesque sed. Blandit neque erat rhoncus lobortis donec in tortor. Sed interdum nunc sit nunc tellus egestas. Morbi dolor nisl odio eros vitae. Nibh purus faucibus nunc at. Eleifend sodales sit turpis ridiculus. Euismod lobortis iaculis platea bibendum luctus dolor. Enim sed urna phasellus cursus et lacus nunc nec quisque. Sed tincidunt turpis sit suspendisse quam quis. Nec nibh vel tempor diam magna.
+        Non arcu arcu enim sed euismod imperdiet mattis sed consectetur. Pellentesque ac urna sed diam. Massa lacus facilisis imperdiet scelerisque. Ac egestas condimentum sem non vitae scelerisque elit. Lectus consequat scelerisque tristique tortor neque nulla enim odio aliquam. Quam sem facilisi nisl integer consequat in scelerisque amet. Vulputate sapien vulputate pharetra cursus dignissim ridiculus.`
+    },
+
+]
 export const blogCardItems =[
     {
         id:'1',
@@ -237,7 +368,7 @@ export const blogCardItems =[
         read:'120 Reads ',
         button:'intellectual',
         time:'3 Mins Reading',
-        link:'../blog/1',
+        link:'/blog/',
         content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
@@ -248,7 +379,7 @@ export const blogCardItems =[
         read:'120 Reads',
         button:'political',
         time:'3 Mins Reading',
-        link:'../blog/2',
+        link:'/blog/',
         content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
@@ -259,7 +390,7 @@ export const blogCardItems =[
         read:'120 Reads',
         button:'Constitution',
         time:'3 Mins Reading',
-        link:'../blog/3',
+        link:'/blog/',
         content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
@@ -270,7 +401,7 @@ export const blogCardItems =[
         read:'120 Reads',
         button:'intellectual',
         time:'3 Mins Reading',
-        link:'../blog/4',
+        link:'/blog/',
         content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
@@ -281,7 +412,7 @@ export const blogCardItems =[
         read:'120 Reads',
         button:'political',
         time:'3 Mins Reading',
-        link:'../blog/5',
+        link:'/blog/',
         content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
     {
@@ -292,13 +423,13 @@ export const blogCardItems =[
         read:'120 Reads',
         button:'Constitution',
         time:'3 Mins Reading',
-        link:'../blog/6',
+        link:'/blog/',
         content:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id. Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.Eros diam sollicitudin pellentesque praesent tellus sit. Quis in eleifend tempus gravida. Id.'
     },
 ]
 
 
-export const iCardItems =[
+export const CardItems =[
     {
         id:'1',
         image:'',

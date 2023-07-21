@@ -1,15 +1,18 @@
 import React from 'react'
-import { eventHeroItem } from '../utils'
-import Hero from '../components/common/Hero'
-import CardList from '../blog/CardList'
-import MoreAreaCard from '../components/common/MoreAreaCard'
+import Button from '../../components/common/Button'
+import style from '../../styles/global.module.css'
+import {portfolioHeroItem} from '../../utils'
+import Hero from '../../components/common/Hero'
+import PortfolioCardList from './portfolioCardList'
+import MoreAreaCard from '../../components/common/MoreAreaCard'
+
 
 const page = () => {
   return (
     <section>
         <div>
         {
-          eventHeroItem.map((item,index) => (
+          portfolioHeroItem.map((item,index) => (
             <Hero 
             key={index}
             headline={item.headline}
@@ -20,8 +23,9 @@ const page = () => {
           ))
         }
         </div>
-        <CardList />
+        <PortfolioCardList />
         <MoreAreaCard />
+
     </section>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import PortfolioCard from './PortfolioCard'
-import { portfolioCardItems } from '../utils'
+import { portfolioCardItems } from '../../utils'
 const portfolioCardList = () => {
   return (
     <section className='min-h-[100vh]
