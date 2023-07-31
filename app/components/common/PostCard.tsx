@@ -40,7 +40,7 @@ const PostCard = (props:any) => {
        <p className='w-[353px] lg:w-[860px] text-justify font-[400] text-[16px] lg:text-[20px] leading-[28px] lg:leading-[32px] tracking-[-2%]'>{paragraph}</p>
           </div>
           <div className='max-w-[1300px] mx-auto'>
-        <p className='w-[353px] lg:w-0 font-[400] text-[16px] lg:text-[20px] leading-[28px] lg:leading-[32px] text-justify tracking-[-2%]'>{content}</p>
+        <p className='w-[353px] lg:w-full font-[400] text-[16px] lg:text-[20px] leading-[28px] lg:leading-[32px] text-justify tracking-[-2%]'>{content}</p>
 <div className='border border-black   my-4 h-[1px] w-[353px] lg:w-[1300px]'></div>
 <div className='flex justify-between lg:justify-end items-center gap-24 pt-10 lg:pt-0 pb-4 lg:pb-0'>
 <p className='font-[400] text-[12px] lg:text-[16px] leading-[32px] tracking-[-2%]'>{date}</p>

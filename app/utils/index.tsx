@@ -428,6 +428,123 @@ export const blogCardItems =[
     },
 ]
 
+export const eventCardItems =[
+    {
+        id:'1',
+        image:'',
+        headline:`The Correctional Prowess of Justice Law`,
+        date:'May 24,2020',
+        read:'120 Reads ',
+        button:'Upcoming',
+        time:'3 Mins Reading',
+        link:'/event/',
+    },
+    {
+        id:'2',
+        image:'',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Upcoming',
+        time:'3 Mins Reading',
+        link:'/event/',
+    },
+    {
+        id:'3',
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Upcoming',
+        time:'3 Mins Reading',
+        link:'/event/',
+    },
+    {
+        id:'4',
+        image:'',
+        headline:`EFFC-DSS Clash a National Embarrassment`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Upcoming',
+        time:'3 Mins Reading',
+        link:'/event/',
+    },
+    {
+        id:'5',
+        image:'',
+        headline:`The Correctional Prowess of Justice Law`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Upcoming',
+        time:'3 Mins Reading',
+        link:'/event/',
+    },
+    {
+        id:'6',
+        image:'',
+        headline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        date:'May 24,2020',
+        read:'120 Reads',
+        button:'Upcoming',
+        time:'3 Mins Reading',
+        link:'/event/',
+    },
+]
+
+export const eventReserveSpaceItems=[
+    {
+        id:'1',
+        image:'',
+        subheadline:`The Correctional Prowess of Justice Law`,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam.',
+        location:'Eko Hotel & Suit, No. 45, Banana Island, Lagos, Nigeria',
+        detail:'22nd Dec. 2023 - 10AM',
+    },
+
+    {
+        id:'2',
+        image:'',
+        subheadline:`Intellectual Property Law In Nigeria`,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam.',
+        location:'Eko Hotel & Suit, No. 45, Banana Island, Lagos, Nigeria',
+        detail:'2nd Jan. 2023 9AM- 10AM',
+    },
+
+    {
+        id:'3',
+        image:'',
+        subheadline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam.',
+        location:'Eko Hotel & Suit, No. 45, Banana Island, Lagos, Nigeria',
+        detail:'10th March. 2023 - 10AM',
+    },
+    {
+        id:'4',
+        image:'',
+        subheadline:`EFFC-DSS Clash a National Embarrassment`,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam.',
+        location:'Eko Hotel & Suit, No. 45, Banana Island, Lagos, Nigeria',
+        detail:'24th April 2023 9AM- 10AM'
+    },
+    {
+        id:'5',
+        image:'',
+        subheadline:`The Correctional Prowess of Justice Law`,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam.',
+        location:'Eko Hotel & Suit, No. 45, Banana Island, Lagos, Nigeria',
+        detail:'11 May. 2023 9AM - 10AM',
+    },
+    {
+        id:'6',
+        image:'',
+        subheadline:`Ozekhome_with_femiFalana @ GaniFawehinmi's protest 1998`,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam.',
+        location:'Eko Hotel & Suit, No. 45, Banana Island, Lagos, Nigeria',
+        detail:'15 June 2023 9AM- 10AM',
+    }
+]
+
+
 
 export const CardItems =[
     {
@@ -560,51 +677,120 @@ export const eventItems =[
 
 export const storeItems =[
     {
+        id:'1',
         image:'',
+        link:'../store/',
         headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        price:`#50,000`,
-        rate:'120 Download',
-        logo:''
+        price:`#25,000`,
+        rate:9,
     },
     {
+        id:'2',
         image:'',
+        link:'../store/',
         headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        price:`#50,000`,
-        rate:'120 Download',
-        logo:''
+        price:`#60,000`,
+        rate:20,
     },
     {
+        id:'3',
         image:'',
+        link:'../store/',
         headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        price:`#50,000`,
-        rate:'120 Download',
-        logo:''
+        price:`#40,000`,
+        rate:56,
     },
     {
+        id:'4',
         image:'',
+        link:'../store/',
         headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        price:`#50,000`,
-        rate:'120 Download',
-        logo:''
+        price:`#20,000`,
+        rate:10,
     },
     {
+        id:'5',
         image:'',
+        link:'../store/',
         headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        price:`#50,000`,
-        rate:'120 Download',
-        logo:''
+        price:`#80,000`,
+        rate:23,
     },
     {
+        id:'6',
         image:'',
+        link:'../store/',
         headline:`Intellectual Property Law In Nigeria`,
         date:'May 24,2020',
-        price:`#50,000`,
-        rate:'120 Download',
-        logo:''
+        price:`#150,000`,
+        rate:12,
+    },
+]
+
+export const StoreOverlayItems =[
+    {
+        id:'1',
+        image:'',
+        link:'../store/',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#25,000`,
+        rate:9,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
+    },
+    {
+        id:'2',
+        image:'',
+        link:'../store/',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#60,000`,
+        rate:20,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
+    },
+    {
+        id:'3',
+        image:'',
+        link:'../store/',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#40,000`,
+        rate:56,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
+    },
+    {
+        id:'4',
+        image:'',
+        link:'../store/',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#20,000`,
+        rate:10,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
+    },
+    {
+        id:'5',
+        image:'',
+        link:'../store/',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#80,000`,
+        rate:23,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
+    },
+    {
+        id:'6',
+        image:'',
+        link:'../store/',
+        headline:`Intellectual Property Law In Nigeria`,
+        date:'May 24,2020',
+        price:`#150,000`,
+        rate:12,
+        description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
     },
 ]

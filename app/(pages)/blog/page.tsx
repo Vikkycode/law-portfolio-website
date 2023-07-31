@@ -1,7 +1,7 @@
 import React from 'react'
 import { BlogHeroItem } from '../../utils'
 import Hero from '../../components/common/Hero'
-import CardList from './CardList'
+import BlogCardList from './BlogCardList'
 import MoreAreaCard from '../../components/common/MoreAreaCard'
 
 
@@ -21,7 +21,7 @@ const page = () => {
           ))
         }
         </div>
-        <CardList />
+        <BlogCardList />
         <MoreAreaCard />
     </section>
   )

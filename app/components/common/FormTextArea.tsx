@@ -12,7 +12,7 @@ const FormTextArea = (props:any) => {
 
    
     return (
-    <div className='mt-20 lg:mt-56'>     
+    <div className='mt-10'>     
         <div className=''>
         <textarea  
         // type={type}

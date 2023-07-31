@@ -1,9 +1,12 @@
 import React from 'react'
 import PostCard from '../../components/common/PostCard'
 import { postCardItems } from '../../utils'
+
 const blogPostList = (props:any) => {
   const {id} = props;
   const filteredPostItems = postCardItems.filter((blog => blog.id === id))
+  
+  
   return (
     <div className='my-10'>
         <div>

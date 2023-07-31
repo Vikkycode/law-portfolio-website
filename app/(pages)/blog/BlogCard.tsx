@@ -1,12 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import Button from './Button'
+import Button from '../../components/common/Button'
 import style from '../../styles/global.module.css'
 import Link from 'next/link'
 
-const Card = (props:any) => {
+const BlogCard = (props:any) => {
   const {id,headline,link,date,read,time,button}= props;
-
   return (
     <div>
         <div className='flex flex-col items-center'>
@@ -29,4 +28,4 @@ const Card = (props:any) => {
   )
 }
 
-export default Card
+export default BlogCard

@@ -1,7 +1,7 @@
 import React from 'react'
-import { eventHeroItem } from '../../utils'
+import { eventHeroItem,eventCardItems } from '../../utils'
 import Hero from '../../components/common/Hero'
-import CardList from '../blog/CardList'
+import EventCardList from '../event/EventCardList'
 import MoreAreaCard from '../../components/common/MoreAreaCard'
 
 const page = () => {
@@ -19,8 +19,8 @@ const page = () => {
             />
           ))
         }
-        </div>
-        <CardList />
+        </div>   
+          <EventCardList />        
         <MoreAreaCard />
     </section>
   )

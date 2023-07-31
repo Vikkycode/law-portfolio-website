@@ -1,6 +1,6 @@
 import React from 'react'
 import StoreCard from './storeCard'
-import { storeItems } from '../../utils'
+import { storeItems,StoreOverlayItems } from '../../utils'
 
 
 const storeCardList = () => {
@@ -10,6 +10,8 @@ const storeCardList = () => {
         { storeItems.map((store,index)=>(
             <StoreCard 
             key={index}
+            id={store.id}
+            link={store.link}
             headline={store.headline}
             date={store.date}
             price={store.price}

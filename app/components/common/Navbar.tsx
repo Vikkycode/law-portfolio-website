@@ -13,11 +13,13 @@ import { useRouter,usePathname } from 'next/navigation'
 
 
 const Navbar = () => {
-  const [isClickMenu,setClickMenu] =useState(false)
-  
-  const handleClickMenu = ()=>{
-    setClickMenu(!isClickMenu)
+  const [isOpen,setIsOpen] =useState(false)
+
+
+  const handleClickOpen = ()=>{
+    setIsOpen(!isOpen)
   }
+
 
   const router = useRouter()
   const pathname = usePathname()
@@ -54,22 +56,27 @@ const Navbar = () => {
               />
               <AiOutlineMenu size={24}
               className='block lg:hidden'
-              onClick={handleClickMenu} />
-              { isClickMenu && (
+              onClick={handleClickOpen} />
+              { isOpen && (
                 <div className={`${style.flexCenter} flex-col min-h-[100vh] w-full bg-white text-black z-20 fixed top-0 right-0`}>
                   <AiOutlineClose 
                   size={24}
-                  onClick={handleClickMenu} 
-                  className='fixed top-20 right-4'/>
-                  {isClickMenu && (
+                  onClick={handleClickOpen} 
+                  className='fixed top-20 right-4'
+                  />
+                  {isOpen && (
                 <ul className='flex  items-center gap-10 flex-col'>
                 {NavLinks.map((link,index) =>(
-                 <li key={index} className={`font-[500]
+                 <li key={index} 
+                 className={`font-[500]
                  text-[24px] 
                  leading-[14.52px] lg:leading-[16.94px]
-                 tracking-[-2%] ${(pathname === link.href) ? 'text-black' : 'text-[#818181]'}`}>
+                 tracking-[-2%] ${(pathname === link.href) ? 'text-black' : 'text-[#818181]'}`}
+                 onClick={handleClickOpen}
+                 >
                      <Link href={link.href}
-                     onClick={() => router.push(`${link.href}`)}>{link.title}</Link>
+                     onClick={() => router.push(`${link.href}`)}
+                     >{link.title}</Link>
                  </li>
                 ))}     
              </ul>
