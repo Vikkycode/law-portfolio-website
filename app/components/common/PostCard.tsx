@@ -8,7 +8,9 @@ const PostCard = (props:any) => {
   const {subheadline,author,role,btn,button,read,time,date,paragraph,content} = props;
   return (
     <div>
-        <section className='pt-20 lg:h-[700px] lg:w-full bg-[#f3f3f3]'>
+        <section className='pt-20 lg:h-[700px] lg:w-full bg-[#f3f3f3]'
+        data-aos="fade-up"
+        data-aos-duration="3000">
             <div className='max-w-[1300px] mx-auto lg:px-0 px-4'>
                 <h1 className='font-[400] text-[36px] lg:text-[80px] leading-[48px] lg:leading-[80px] tracking-[-5%] w-[352px] lg:w-[1061px]'>{subheadline}</h1>               
                 <div className='-mt-24'>
@@ -27,7 +29,9 @@ const PostCard = (props:any) => {
                 </div>
             </div>
         </section>
-        <section className='bg-white lg:min-h-[100vh] lg:px-0 px-4 pt-10 lg:pt-20'>
+        <section className='bg-white lg:min-h-[100vh] lg:px-0 px-4 pt-10 lg:pt-20'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <div className='flex flex-col justify-start'>
           <div className='lg:flex block'>
           <div className='lg:flex block justify-center top-10 lg:top-4 relative -right-[15rem] lg:-right-[25rem] z-30 w-[100px]'>
@@ -42,7 +46,9 @@ const PostCard = (props:any) => {
           <div className='max-w-[1300px] mx-auto'>
         <p className='w-[353px] lg:w-full font-[400] text-[16px] lg:text-[20px] leading-[28px] lg:leading-[32px] text-justify tracking-[-2%]'>{content}</p>
 <div className='border border-black   my-4 h-[1px] w-[353px] lg:w-[1300px]'></div>
-<div className='flex justify-between lg:justify-end items-center gap-24 pt-10 lg:pt-0 pb-4 lg:pb-0'>
+<div className='flex justify-between lg:justify-end items-center gap-24 pt-10 lg:pt-0 pb-4 lg:pb-0'
+data-aos="fade-up"
+data-aos-duration="3000">
 <p className='font-[400] text-[12px] lg:text-[16px] leading-[32px] tracking-[-2%]'>{date}</p>
 <p className='text-gray-400 text-[12px] lg:text-[16px]'>{read}-{time}</p>
 </div>

@@ -7,7 +7,9 @@ import Form from '../../components/common/Form'
 const Row = () => {
   return (
     <div className='min-h-[100vh] max-w-[1300px] mx-auto py-10 lg:py-20 px-4 lg:px-0'>
-        <div className='flex justify-between items-center flex-col lg:flex-row '>
+        <div className='flex justify-between items-center flex-col lg:flex-row '
+        data-aos="fade-up"
+        data-aos-duration="3000">
                 <Image 
                 src={image}
                 height={620}

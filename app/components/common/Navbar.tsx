@@ -9,10 +9,10 @@ import { BsFillArrowRightCircleFill} from 'react-icons/bs'
 import {FaShoppingCart} from 'react-icons/fa'
 import logo from '../../../public/images/Vector.svg' 
 import Image from 'next/image'
-import { useRouter,usePathname } from 'next/navigation'
+import { useRouter,usePathname,useSelectedLayoutSegment } from 'next/navigation'
 
 
-const Navbar = () => {
+const Navbar = () => {  
   const [isOpen,setIsOpen] =useState(false)
 
 
@@ -23,6 +23,7 @@ const Navbar = () => {
 
   const router = useRouter()
   const pathname = usePathname()
+  const isActive = useSelectedLayoutSegment()
   
   return (
     
@@ -41,9 +42,11 @@ const Navbar = () => {
           <div className='hidden lg:block'>
             <ul className='flex  items-center gap-10'>
                {NavLinks.map((link,index) =>(
-                 <li key={index} className={`${style.Text} ${pathname.startsWith(link.href) ? 'text-black' : 'text-[#818181]'}`}>
-                    <Link href={link.href}
-                    onClick={() => router.push(`${link.href}`)}>{link.title}</Link>
+                 <li key={index} className={`${style.Text}`}>
+                    <Link 
+                    href={link.href}
+                    className={`${(isActive && link.href === link.targetSegment) ? 'text-black' : 'text-gray-500'}`}
+                    >{link.title}</Link>
                 </li>
                ))}     
             </ul>

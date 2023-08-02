@@ -31,10 +31,14 @@ const Form = (props:any) => {
 }
   
     return (
-    <div className='flex flex-col lg:h-[528px]  lg:w-[620px]'>
-        <h1 className='font-[400] text-[28px] lg:text-[40px] leading-[33.6px] lg:leading-[48px] tracking-[-5%] w-[353px] -mt-20 lg:w-[640px]'>We will reach you as soon as you reach out to us.</h1>
+    <div className='flex flex-col lg:-mt-40 lg:h-[528px]  lg:w-[620px]'
+    data-aos="fade-up"
+    data-aos-duration="3000">
+        <h1 className='font-[400] text-[28px] lg:text-[40px] leading-[33.6px] lg:leading-[48px] tracking-[-5%] w-[353px] mt-5 lg:w-[640px]'>We will reach you as soon as you reach out to us.</h1>
         <form action="">
-        <div className='flex items-center lg:order-first order-last gap-10 py-10'>
+        <div className='flex items-center lg:order-first order-last gap-10 py-10'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <div className='px-4 lg:h-[40px] border-[1px] gap-[5px] text-[#787878] border-[#787878] rounded-[47px] flex items-center  justify-center'>
             <Button title="Send Message"/>
             <BsFillArrowRightCircleFill />
@@ -44,7 +48,7 @@ const Form = (props:any) => {
             <BsFillArrowRightCircleFill />
             </div>
         </div>
-        <div className='flex lg:flex-col  gap-y-10'>
+        <div className='flex flex-col  gap-y-10'>
             <FormInput 
             title="We will reach you as soon as you reach out to us"
             name="fullName"
@@ -73,7 +77,9 @@ const Form = (props:any) => {
         </div>
         </form>
             <div className={`${style.Button}
-            relative left-[16rem] lg:left-[34rem] py-2 w-[100px]`}>
+            relative left-[16rem] lg:left-[34rem] py-2 w-[100px]`}
+            data-aos="fade-up"
+    data-aos-duration="3000">
             <Button title="Send"/>
             <BsFillArrowRightCircleFill />
             </div>

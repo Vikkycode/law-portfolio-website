@@ -4,11 +4,14 @@ import style from '../../styles/global.module.css'
 import Link from 'next/link'
 
 
+
 const EventCard = (props:any)=>{
     const {id,headline,link,date,read,time,button}= props;
     return (
       <div>
-          <div className='flex flex-col items-center'>
+          <div className='flex flex-col items-center'
+          data-aos="fade-up"
+          data-aos-duration="3000">
             <div className='lg:flex items-center justify-center  relative top-10 lg:top-14 -right-[7rem] lg:-right-[8.5rem]'>
               <div className={`${style.Button}`}>
               <Button title={button}/>

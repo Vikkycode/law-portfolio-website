@@ -8,30 +8,37 @@ export const NavLinks= [
     {
         title:'Home',
         href:'/',
+        targetSegment:null,
     },
     {
         title:'Portfolio',
         href:'../portfolio/',
+        targetSegment:'../portfolio/',
     },
     {
         title:'Event',
         href:'../event/',
+        targetSegment:'../event/',
     },
     {
         title:'Blog',
         href:'../blog/',
+        targetSegment:'../blog/',
     },
     {
         title:'Store',
         href:'../store/',  
+        targetSegment:'../store/',
     },
     {
         title:'About',
         href:'../about/',
+        targetSegment:'../about/',
     },
     {
         title:'Contact',
         href:'../contact/',
+        targetSegment:'../contact/',
     }
 ]
 
@@ -793,4 +800,11 @@ export const StoreOverlayItems =[
         rate:12,
         description:'Lorem ipsum dolor sit amet consectetur. Interdum amet sit a molestie commodo phasellus a amet. Adipiscing tortor elementum ipsum sit accumsan diam amet mollis ac. Turpis dictumst senectus eget vitae in ornare. Non vitae aliquet nunc egestas in elit massa aliquet. Condimentum cursus id hendrerit sed arcu turpis praesent volutpat facilisis. Consequat feugiat neque in magna ultrices at ullamcorper. Nulla mattis augue egestas amet quis nibh. Egestas eros nec ornare sollicitudin. Nibh lectus nibh dictumst pellentesque lectus venenatis velit etiam. '
     },
+]
+
+export const pagelinks = [
+    {
+        id:'1',
+        buyTicket:'buy-ticket'       
+    }
 ]

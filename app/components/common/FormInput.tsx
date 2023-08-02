@@ -14,7 +14,9 @@ const FormInput = (props:any) => {
 
    
     return (
-    <div className='h-[60px]'> 
+    <div className='h-[60px]'
+    data-aos="fade-up"
+    data-aos-duration="3000"> 
         {/* <h1 className='font-[400] text-[28px] lg:text-[40px] leading-[33.6px] lg:leading-[48px] tracking-[-5%]  pb-10  lg:order-last order-first lg:mb-10 w-[353px]  lg:w-[640px]'>{title}</h1> */}
     <div className=''>
         <div>

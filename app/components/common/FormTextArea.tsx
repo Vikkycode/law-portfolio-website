@@ -12,7 +12,9 @@ const FormTextArea = (props:any) => {
 
    
     return (
-    <div className='mt-10'>     
+    <div className='mt-10'
+    data-aos="fade-up"
+    data-aos-duration="3000">     
         <div className=''>
         <textarea  
         // type={type}

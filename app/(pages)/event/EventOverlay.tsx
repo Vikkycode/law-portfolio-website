@@ -1,5 +1,5 @@
 'use client'
-import React,{useState} from 'react'
+import React,{useContext,useState} from 'react'
 import Image from 'next/image'
 import image from '../../../public/images/Rectangle.png'
 import logo from '../../../public/images/Vector.svg'
@@ -9,10 +9,14 @@ import Button from '@/app/components/common/Button'
 import style from '../../styles/global.module.css'
 import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 import BuyTicketOverlay from '@/app/components/common/BuyTicketOverlay'
+import { ModalContext } from '@/app/context/ModalContext'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
 
 const EventOverlay = (props:any) => {
-    const [isModal,setIsModal] = useState(false)
     const {subheadline,location,description,detail} = props;
+    const {isModalOpen,toggleModal} = useContext(ModalContext)
     
     const [form,setForm] = useState({
         fullname:'',
@@ -21,10 +25,6 @@ const EventOverlay = (props:any) => {
         role:'',
         expection:''
       })
-
-      const handleOpenModal = ()=>{
-        setIsModal(true)
-      }
 
       const handleFormChange=(event:any)=>{
         const {name,value} = event.target;
@@ -38,12 +38,17 @@ const EventOverlay = (props:any) => {
     }
 
     return (
-    <div className='max-w-[1300px] mx-auto py-20 min-h-[100vh]'>
-        <div className='flex flex-col lg:flex-row  lg:flex-2 items-start justify-between'>
+    <div className='max-w-[1300px] mx-auto py-20 min-h-[100vh]'
+    >
+        <div className='flex flex-col lg:flex-row  lg:flex-2 items-start justify-between'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <div className='flex items-center justify-center flex-col  lg:px-0'>
         <div className='bg-[#f9f9f9] rounded-t-[24px] w-[390px] lg:w-[538px] px-4 lg:px-0'>
         <div className='flex flex-col'>
-        <div className=''>
+        <div className=''
+        data-aos="fade-up"
+        data-aos-duration="3000">
             <Image 
             src={image}
             alt='law'
@@ -52,7 +57,9 @@ const EventOverlay = (props:any) => {
             className='lg:h-[228px] lg:w-[538px] h-[168px] w-[353px]'
             />
         </div>
-        <div className='flex items-center lg:justify-around just h-[76px] my-10 w-[500px] lg:pl-10'>
+        <div className='flex items-center lg:justify-around  h-[76px] my-10  lg:pl-10'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <h1 className='font-[400] text-[24px]
         lg:text-[32px] w-[248px] lg:w-full leading-[28.8px] lg:leading-[38.4px] tracking-[-5%]'>{subheadline}</h1>
         <Image 
@@ -64,7 +71,9 @@ const EventOverlay = (props:any) => {
             />
         </div>
         </div>
-        <div className=' bg-[#fff] lg:py-8   lg:px-10'>
+        <div className=' bg-[#fff] lg:py-8   lg:px-10'
+        data-aos="fade-up"
+        data-aos-duration="3000">
             <h2 className='font-[500]
             text-[14px] lg:text-[16px] leading-[24px]
              tracking-[-10%] lg:tracking-[10%] text-[#b7b7b7]
@@ -97,14 +106,18 @@ const EventOverlay = (props:any) => {
             </div>
         </div>
         </div>
-        <div className='flex justify-end items-center bg-[#f9f9f9] h-[14vh]   rounded-b-[14px] w-full px-4 lg:px-10'>
+        <div className='flex justify-end items-center bg-[#f9f9f9] h-[14vh]   rounded-b-[14px] w-full px-4 lg:px-10'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <div className={`${style.Button}`}>
             <Button title="See Speakers"/>
             <BsFillArrowRightCircleFill />
             </div>
         </div>
         </div>
-        <div className='flex flex-col gap-y-10 px-4 lg:px-0'>
+        <div className='flex flex-col gap-y-10 px-4 lg:px-0'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <h1 className='font-[400] text-[28px] lg:text-[40px] leading-[33.6px] lg:leading-[48px] leading-[33.6px] tracking-[-5%] w-[353px]  lg:w-[640px]'>We are glad that you will be in the event, reserve your space.</h1>
         <FormInput 
             name="fullname"
@@ -136,14 +149,23 @@ const EventOverlay = (props:any) => {
             value={form.expection}
             onChange={handleFormChange}
             />
-        <div className='flex items-center justify-end gap-10 py-10'>
+        <div className='flex items-center justify-end gap-10 py-10'
+        data-aos="fade-up"
+        data-aos-duration="3000">
         <div className={`${style.Button}`}>
-            <Button title="Buy Ticket"
-            onClick={handleOpenModal}
+            <button
+            onClick={toggleModal}>
+            <Button    
+             title="Buy Ticket"
+            //  link="buy-ticket" 
             />
-            {isModal && (
-                <div className='fixed top-0  right-0 h-full w-full scroll z-20'>
-                    <BuyTicketOverlay />
+            </button>
+            {isModalOpen && (
+                <div className='fixed top-0 overflow-hidden right-0 h-full w-full scroll z-20'>
+                    <BuyTicketOverlay 
+                    isModalOpen={isModalOpen}
+                    toggleModal={toggleModal}
+                    />
                 </div>
             )}
             <BsFillArrowRightCircleFill />

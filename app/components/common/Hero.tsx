@@ -8,8 +8,11 @@ const Hero = (props:any) => {
   const {headline,author,role,btn} = props;
   return (
     <div>
-        <div className='pt-20 lg:h-[700px]   lg:w-full bg-[#f3f3f3]'>
-            <div className='max-w-[1300px] mx-auto lg:px-0 px-4'>
+        <div className='pt-20 lg:h-[700px]   lg:w-full bg-[#f3f3f3]'
+        >
+            <div className='max-w-[1300px] mx-auto lg:px-0 px-4'
+            data-aos="fade-up"
+            data-aos-duration="3000">
                 <h1 className='font-[400] text-[36px] lg:text-[80px]   leading-[48px] lg:leading-[80px]  
                 tracking-[-5%] w-[352px] lg:w-[1061px]'>{headline}</h1>               
                 <div className='-mt-24'>

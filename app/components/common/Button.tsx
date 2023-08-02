@@ -3,15 +3,17 @@
 import React from 'react'
 import style from '../../styles/global.module.css'
 import Link from 'next/link'
+import { pagelinks } from '@/app/utils'
 
 
 const Button = (props:any) => {
+  
   return (
-    <div>
-        <Link 
-        href=''
-        className={style.Text}>{props.title}</Link>
-    </div>
+    <>
+        <h1
+        // href={`${props.link}`}
+        className={style.Text}>{props.title}</h1>
+    </>
   )
 }
 

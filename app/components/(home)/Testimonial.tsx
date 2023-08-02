@@ -6,7 +6,9 @@ import Link from 'next/link'
 
 const Testimonial = () => {
   return (
-    <div className=' max-w-[1300px] h-[130vh] lg:h-[50vh] mx-auto'>
+    <div className=' max-w-[1300px] h-[130vh] lg:h-[50vh] mx-auto'
+    data-aos="fade-up"
+    data-aos-duration="3000">
       <div className='my-10'>
       <CardList />
       <div className={`${style.flexEnd} pt-10 pr-8`}>

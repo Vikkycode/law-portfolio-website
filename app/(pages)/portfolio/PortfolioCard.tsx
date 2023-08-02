@@ -5,7 +5,9 @@ import Image from 'next/image'
 
 const PortfolioCard = (props:any) => {
   return (
-    <section className='mb-4 lg:mb-48 '>
+    <section className='mb-4 lg:mb-48 '
+    data-aos="fade-up"
+    data-aos-duration="3000">
         <div className='flex flex-col items-center'>
             <div className='lg:flex items-center justify-center hidden  absolute h-[50vh]'>
             <Image 

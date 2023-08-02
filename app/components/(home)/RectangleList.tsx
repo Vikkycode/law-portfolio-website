@@ -5,7 +5,8 @@ import {PracticeItems2 } from '../../utils/index'
 
 const RectangleList = () => {
   return (
-    <div>
+    <div 
+    >
         {PracticeItems2.map(item => (
             <Rectangle 
             key={item}

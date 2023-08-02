@@ -8,14 +8,18 @@ import { moreAreaCard } from '@/app/utils'
 
 const MoreAreaCard = () => {
   return (
-    <section className='min-h-[626px] bg-[#f3f3f3] py-[5rem]  lg:px-0'>
+    <section className='min-h-[626px] bg-[#f3f3f3] py-[5rem]  lg:px-0'
+    data-aos="fade-up"
+    data-aos-duration="3000">
         <div className='max-w-[1300px]  mx-auto'>
         <h1 className='mb-[3rem] uppercase Text2 px-4'>more area</h1>
       <div className='border-[1px] border-black   mx-4 lg:mx-0 -mt-6'>
       </div>
 
       {moreAreaCard.map((data,index)=>(
-      <div key={index} className='h-[159px] lg:h-[141px] bg-[#fff] w-full  rounded-[8px] lg:rounded-[80px] my-4 py-6 lg:my-8 lg:py-6 px-12'>
+      <div key={index} className='h-[159px] lg:h-[141px] bg-[#fff] w-full  rounded-[8px] lg:rounded-[80px] my-4 py-6 lg:my-8 lg:py-6 px-12'
+      data-aos="fade-up"
+      data-aos-duration="3000">
         <div className='flex items-center justify-between flex-col lg:flex-row'>
         <div className='flex items-center'>
             <Image 

@@ -1,15 +1,14 @@
 'use client'
-import React from 'react'
-// import BlogPostList from '../blogPostList'
+import React,{useContext,useState} from 'react'
 import EventOverlay from '../EventOverlay'
-
 import Hero from '../../../components/common/Hero'
 import { eventHeroItem,eventReserveSpaceItems } from '@/app/utils'
 
 
-const page = async ({params}:{params:{Id:string}})=>{
-  
-   const filteredEventItems = eventReserveSpaceItems.filter(event => event.id === params.Id)
+const page = ({params}:{params:{Id:string}})=>{
+
+    
+  const filteredEventItems = eventReserveSpaceItems.filter(event => event.id === params.Id)
    
    return (
     <>
@@ -37,7 +36,6 @@ const page = async ({params}:{params:{Id:string}})=>{
             description={event.description}
             detail={event.detail}
             />        
-
           ))
         }  
         </div>

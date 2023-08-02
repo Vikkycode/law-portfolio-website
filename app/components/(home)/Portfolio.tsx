@@ -11,10 +11,14 @@ import style from '../../styles/global.module.css'
 
 const Portfolio = () => {
   return (
-    <section className='lg:h-[369px]  w-full'>
+    <section className='lg:h-[369px]  w-full'
+    data-aos="fade-up"
+    data-aos-duration="3000">
         <div className='absolute lg:flex  justify-center items-center block '>
             <div className='h-[160px] lg:h-[240px] w-[303px] lg:w-[799px] text-white pl-6 lg:pl-28 pt-10 lg:pt-8'>
-            <h1 className='font-[400] text-[40px] lg:text-[80px] leading-[40px] lg:leading-[80px] tracking-[-5%]'>Hear what our clients & companies are saying about him</h1>
+            <h1 className='font-[400] text-[40px] lg:text-[80px] leading-[40px] lg:leading-[80px] tracking-[-5%]'
+            data-aos="fade-right"
+            data-aos-duration="3000">Hear what our clients & companies are saying about him</h1>
             </div>
             <div className='relative top-[12.5rem] right-[2rem]'>
             <div className='hidden lg:block'>

@@ -8,7 +8,9 @@ import Rectangle from './Rectangle'
 const PracticeArea = () => {
 
   return (
-    <div className='min-h-screen bg-[#f3f3f3] py-[5rem] px-6 lg:px-8'>
+    <div className='min-h-screen bg-[#f3f3f3] py-[5rem] px-6 lg:px-8'
+    data-aos="fade-up"
+    data-aos-duration="3000">
       <div className='max-w-[1300px] mx-auto'>
       <h1 className='mb-[3rem] uppercase Text2'>practice areas</h1>
       <div className='border-[1px] border-black -mt-6'>
