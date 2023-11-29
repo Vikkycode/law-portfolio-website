@@ -9,21 +9,22 @@ import { BsFillArrowRightCircleFill} from 'react-icons/bs'
 import {FaShoppingCart} from 'react-icons/fa'
 import logo from '../../../public/images/Vector.svg' 
 import Image from 'next/image'
-import { useRouter,usePathname,useSelectedLayoutSegment } from 'next/navigation'
+import { useRouter,usePathname} from 'next/navigation'
 
 
 const Navbar = () => {  
   const [isOpen,setIsOpen] =useState(false)
+  // const [isActive,setIsActive] =useState(false)
 
 
   const handleClickOpen = ()=>{
     setIsOpen(!isOpen)
   }
 
-
+  
   const router = useRouter()
   const pathname = usePathname()
-  const isActive = useSelectedLayoutSegment()
+  const isActive = (link:string) => pathname.includes(link);
   
   return (
     
@@ -36,6 +37,7 @@ const Navbar = () => {
             height={58}
             width={58}
             alt="Logo law"
+            
             className='h-[24px] w-[17.54px]'
             />
           </Link>
@@ -45,7 +47,7 @@ const Navbar = () => {
                  <li key={index} className={`${style.Text}`}>
                     <Link 
                     href={link.href}
-                    className={`${(isActive && link.href === link.targetSegment) ? 'text-black' : 'text-gray-500'}`}
+                    className={`text-gray-500 ${isActive(link.href)  && 'text-black'}`}
                     >{link.title}</Link>
                 </li>
                ))}     

@@ -1,9 +1,10 @@
 import React from 'react'
 import style from '../../styles/global.module.css'
 import Button from '../common/Button'
-import {BsFillArrowUpCircleFill} from 'react-icons/bs'
+import {BsFillArrowUpCircleFill,BsFillArrowDownCircleFill} from 'react-icons/bs'
 
 const Rectangle = (props:any) => {
+  const {isModalOpen,toggleModal} = props;
   return (
     <div
     data-aos="fade-up"

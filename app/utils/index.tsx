@@ -1,4 +1,4 @@
-import aboutPage from '../about/page'
+
 import image from '../../public/images/Rectangle.png'
 import iconPlay from '../../public/icons/play-circle.png'
 
@@ -12,7 +12,7 @@ export const NavLinks= [
     },
     {
         title:'Portfolio',
-        href:'../portfolio/',
+        href:'../portfolio',
         targetSegment:'../portfolio/',
     },
     {
@@ -27,17 +27,17 @@ export const NavLinks= [
     },
     {
         title:'Store',
-        href:'../store/',  
+        href:'../store',  
         targetSegment:'../store/',
     },
     {
         title:'About',
-        href:'../about/',
+        href:'../about',
         targetSegment:'../about/',
     },
     {
         title:'Contact',
-        href:'../contact/',
+        href:'../contact',
         targetSegment:'../contact/',
     }
 ]
